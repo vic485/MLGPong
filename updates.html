@@ -1,54 +1,44 @@
 <!docytpe html>
 <html>
   <head>
-    <title>Engine Testing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Ironic Collective</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.3.0/material.blue_grey-blue.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.3.0/material.min.js"></script>
     <style>
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        color: #e9edf2;
-        background: #2e3841;
-        font-family: sans-serif;
-      }
-      p:last-child {
-        margin-bottom: 0;
-      }
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      li {
-        background: #3c4b58;
-        padding: 1em;
-        margin-bottom: 1em;
-      }
-      h3 {
-        margin-top: 0;
-        font-size: 1.35em;
-        color: #ffd28a;
-      }
-      img {
-        width: 100%;
-        max-width: 600px;
+      #view-source {
+        position: fixed;
+        display: block;
+        right: 0;
+        bottom: 0;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        z-index: 900;
       }
     </style>
   </head>
-  <body>
-    <ul>
-      <li class="game-update">
-        <h3>More Dungeons, Items, Quests, and hours to waste...</h3>
-        <img src="http://news.xbox.com/wp-content/uploads/dlc2-map-pyramic-png-940x528.pgn" alt="New Map!"/>
-        <p>Join us. We have 12 new dungeons, over 50 new items, 25 new quests, and at least 150 hours worth of content for you to waste your time with. It won't ever not be better than it isn't right now.</p>
-      </li>
-      <li class="game-update">
-        <h3>Servers 1, 2, 3, 4, 5, and 6 are down. Sorry.</h3>
-        <p>We're having some issues with the servers. It's cool, we got it. Don't worry about it, they'll be back up when we get it fixed.</p>
-      </li>
-      <li class="game-update">
-        <h3>Pie Now Better than Cake</h3>
-        <p>Yeah, we said it. Pies now give you more HP boost than cake. This is a temporary change in celebratin of Pi(e) Day! Woo!</p>
-      </li>
-    </ul>
+  <body class="mdl-demo mdl-collor--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <main class="mdl-layout__content">
+        <div class="mdl-layout__tab-panel">
+          <!-- Copy <section> below and paste above and change update info -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col">First update of our video game</h4>
+              </div>
+              <p class="mdl-cell mdl-cell--12-col">We put a lot of work into this update. A lot has changed since the start of the beta. See website for more information on update.</p>
+              <img class="mdl-cell mdl-cell--12-col" src="http://www.unclebobs.com/blog/wp-content/uploads/2013/08/video-games-in-a-nutshell1.jpg" alt="Update image">
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
